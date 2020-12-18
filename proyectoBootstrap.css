@@ -1,0 +1,52 @@
+a,
+a:visited
+{
+    color: black;
+}
+
+.logo img{
+    height: 7vw;
+}
+
+.logo,
+.search,
+.barra
+{
+    height: 8vw;
+}
+
+.nav
+{
+    font-size: 1.6vw;
+}
+
+.slide img
+{
+    height: 10vw;
+}
+
+.cards .card
+{
+    width: 16.9%;
+}
+
+.cards .card h3,
+.cards .card li
+{
+    font-size: 1.5vw;
+}
+
+.datos
+{
+    font-size: 1vw;
+}
+
+.botones button
+{
+    width: 10vw;
+}
+
+.empleados .card
+{
+    width: 200px;
+}

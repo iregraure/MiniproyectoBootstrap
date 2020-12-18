@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>JacaRental - Clientes</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="proyectoBootstrap.css" media="screen">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/d574666b01.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="content">
+        <!-- Barra de navegación -->
+        <!-- Fila solo visible en ordenadores -->
+        <div class="row bg-light">
+            <div class="logo col-sm-3 d-none d-sm-none d-md-block">
+                <img src="./Imagenes/JacaRental logo.png" class="img-fluid pl-4">
+            </div>
+            <div class="search col-sm-2 d-none d-sm-none d-md-block">
+                <div class="input-group py-md-3 py-xl-4">
+                    <input type="text" class="form-control border-info" placeholder="Search...">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-black bg-info" type="submit"><i
+                                class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="barra col-sm-7 d-none d-sm-none d-md-block">
+                <ul class="nav nav-tabs pt-5 py-md-3 py-xl-4">
+                    <li class="nav-item col-4">
+                        <a class="nav-link" href="./peliculas.html">Películas</a>
+                    </li>
+                    <li class="nav-item ">
+                    <li class="nav-item col-4">
+                        <a class="nav-link active" href="./clientes.html">Clientes</a>
+                    </li>
+                    <li class="nav-item col-4">
+                        <a class="nav-link" href="./sobreNosotros.html">Sobre nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Fin fila visible ordenador -->
+        <!-- Fila solo visible en movil y tablet -->
+        <div class="row bg-light px-5 py-3">
+            <div class="dropdown d-md-none col-1">
+                <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="./peliculas.html">Películas</a>
+                    <a class="dropdown-item" href="./clientes.html">Clientes</a>
+                    <a class="dropdown-item" href="./sobreNosotros.html">Sobre nosotros</a>
+                </div>
+            </div>
+            <div class="search col-6 offset-1 d-md-none">
+                <div class="input-group py-md-3 py-xl-4">
+                    <input type="text" class="form-control border-info" placeholder="Search...">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-black bg-info" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="logo col-4 d-md-none">
+                <img src="./Imagenes/JacaRental logo.png" class="img-fluid pl-4">
+            </div>
+        </div>
+        <!-- Fin fila visible movil y tablet -->
+        <!-- Fin barra navegación -->
+        <!-- Contenido principal de la página -->
+        <div class="row">
+            <div class="formulario col-4 bg-light offset-1 mt-5 p-4">
+                <div class="datos">
+                    <form>
+                        <div class="form-group d-flex justify-content-between">
+                            <label for="name" class="col-5">Nombre completo</label>
+                            <input type="text" class="form-control col-5">
+                        </div>
+                        <div class="form-group d-flex justify-content-between">
+                            <label for="address" class="col-5">Dirección</label>
+                            <input type="text" class="form-control col-5">
+                        </div>
+                        <div class="form-group d-flex justify-content-between">
+                            <label for="phone" class="col-5">Teléfono</label>
+                            <input type="text" class="form-control col-5">
+                        </div>
+                        <div class="form-group d-flex justify-content-between">
+                            <label for="birthDate" class="col-5">Fecha de nacimiento</label>
+                            <input type="text" class="form-control col-5">
+                        </div>
+                        <div class="form-group d-flex justify-content-between">
+                            <label for="dni" class="col-5">DNI</label>
+                            <input type="text" class="form-control col-5">
+                        </div>
+                    </form>
+                </div>
+                <div class="botones mt-4">
+                    <div class="d-flex justify-content-between border my-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control col-2 border border-info" placeholder="Id">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-info text-dark bg-info" type="button"
+                                    id="button-addon2">Ver cliente</button>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline-info text-dark bg-info">Listar clientes</button>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between border my-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control col-2 border border-info" placeholder="Id">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-info text-dark bg-info" type="button"
+                                    id="button-addon2">Actualizar cliente</button>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline-info text-dark bg-info">Añadir cliente</button>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between border my-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control col-2 border border-info" placeholder="Id">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-info text-dark bg-info" type="button"
+                                    id="button-addon2">Eliminar cliente</button>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline-info text-dark bg-info">Borrar formulario</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="resultados col-6 offset-1 m-5">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Dirección</th>
+                            <th scope="col">Teléfono</th>
+                            <th scope="col">Fecha de nacimiento</th>
+                            <th scope="col">DNI</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Irene</td>
+                            <td>Avenida Andalucia</td>
+                            <td>663111358</td>
+                            <td>05/04/1990</td>
+                            <td>47859658R</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Pedro</td>
+                            <td>Pelay Correa</td>
+                            <td>659987458</td>
+                            <td>30/10/1959</td>
+                            <td>35987468T</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Noelia</td>
+                            <td>Diamantino</td>
+                            <td>667895472</td>
+                            <td>22/01/1955</td>
+                            <td>45982163P</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Jose</td>
+                            <td>San Lázaro</td>
+                            <td>642531982</td>
+                            <td>12/07/1980</td>
+                            <td>39541262G</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Diana</td>
+                            <td>Real</td>
+                            <td>621135489</td>
+                            <td>16/08/2007</td>
+                            <td>48512305H</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

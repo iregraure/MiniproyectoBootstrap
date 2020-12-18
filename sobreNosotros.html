@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>JacaRental - Sobre nosotros</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="proyectoBootstrap.css" media="screen">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/d574666b01.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="content">
+        <!-- Barra de navegación -->
+        <!-- Fila solo visible en ordenadores -->
+        <div class="row bg-light">
+            <div class="logo col-sm-3 d-none d-sm-none d-md-block">
+                <img src="./Imagenes/JacaRental logo.png" class="img-fluid pl-4">
+            </div>
+            <div class="search col-sm-2 d-none d-sm-none d-md-block">
+                <div class="input-group py-md-3 py-xl-4">
+                    <input type="text" class="form-control border-info" placeholder="Search...">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-black bg-info" type="submit"><i
+                                class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="barra col-sm-7 d-none d-sm-none d-md-block">
+                <ul class="nav nav-tabs pt-5 py-md-3 py-xl-4">
+                    <li class="nav-item col-4">
+                        <a class="nav-link" href="./peliculas.html">Películas</a>
+                    </li>
+                    <li class="nav-item ">
+                    <li class="nav-item col-4">
+                        <a class="nav-link" href="./clientes.html">Clientes</a>
+                    </li>
+                    <li class="nav-item col-4">
+                        <a class="nav-link active" href="./sobreNosotros.html">Sobre nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Fin fila visible ordenador -->
+        <!-- Fila solo visible en movil y tablet -->
+        <div class="row bg-light px-5 py-3">
+            <div class="dropdown d-md-none col-1">
+                <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="./peliculas.html">Películas</a>
+                    <a class="dropdown-item" href="./clientes.html">Clientes</a>
+                    <a class="dropdown-item" href="./sobreNosotros.html">Sobre nosotros</a>
+                </div>
+            </div>
+            <div class="search col-6 offset-1 d-md-none">
+                <div class="input-group py-md-3 py-xl-4">
+                    <input type="text" class="form-control border-info" placeholder="Search...">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-black bg-info" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="logo col-4 d-md-none">
+                <img src="./Imagenes/JacaRental logo.png" class="img-fluid pl-4">
+            </div>
+        </div>
+        <!-- Fin fila visible movil y tablet -->
+        <!-- Fin barra navegación -->
+        <!-- Contenido principal de la página -->
+        <div class="row d-flex justify-content-center p-5">
+            <!-- Presentación -->
+            <div class="presentacion col-11">
+                <h1 class="text-info">Presentación</h1>
+                <p>En JacaRental llevamos más de 20 años ofreciendo nuestro mejor servicio para que todo el mundo pueda
+                    disfrutar de las mejores
+                    películas al mejor precio posible. Comenzamos ofreciendo cintas VHS y de ahí pasamos a los DVS y
+                    BlueRay. Ahora hemos
+                    querido ir más allá y además de ofreceros películas en formato físico también podéis adquirilas en
+                    fromato digital.
+                </p>
+                <p>Queremos seguir mejorando para que con nosotros tengáis la mejor experiencia posible, por eso os
+                    animamos a que nos enviéis
+                    cualquier queja, sugerencia de mejora o solicitud de películas a nuestro correo electrónico
+                    sugerencias@jacarental.com. Todas
+                    las sugerencias serán estudiadas y recibirán una respuesta en menos de 15 días. En el caso de
+                    solicitud de alguna película
+                    haremos todo lo posible para conseguirla.
+                </p>
+            </div>
+            <!-- Fin presentación -->
+            <!-- Anticovid -->
+            <div class="anticovid col-11 mt-5">
+                <h1 class="text-info">Medidas antiCovid</h1>
+                <p>Debido a la pandemia en la que nos encontramos tenemos que evitar el contacto físico siempre que sea
+                    posible, para ello
+                    hemos implementado el sigueinte protocolo:
+                </p>
+                <ol>
+                    <li>Todos los alquileres en formato físico se deberán realizar a través de nuesta página web o
+                        aplicación</li>
+                    <li>El tiempo del alquiler comenzará 24h después de que se realice el pedido desde la aplicación y
+                        tendrá una duración
+                        de 24h más de lo habitual.
+                    </li>
+                    <li>Durante las 24h posteriores a la realización del pedido uno de nuestros trabajadores le llevará
+                        la película y se las dejará
+                        en su buzón junto con un ticket con los datos del alquiler. Es importante que no pierda este
+                        ticket ya que lo necesitará
+                        para devolver la película.
+                    </li>
+                    <li>Cuando quiera devolver la película deberá ir a la tienda física y pasar el codigo QR que se le
+                        proporcionó en el ticket por el
+                        lector. Una vez leído el código podrá introducir la película en el buzón y el sistema la marcará
+                        como devuelta.
+                    </li>
+                    <li>Finalmente, nuestros empleados se encargarán de desinfectar las películas antes de volver a
+                        marcarlas como disponibles, de esta
+                        forma intentamos minimizar el riesgo de contagio.
+                    </li>
+                </ol>
+                <p>Agradecemos su colaboración y lamentamos las molestias que este protocolo les pudiese ocasionar.</p>
+            </div>
+            <!-- Fin anticovid -->
+            <!-- Empleados -->
+            <div class="empleados col-11 mt-5">
+                <h1 class="text-info">Nuestros empleados</h1>
+                <div class="d-flex justify-content-around flex-wrap mt-4">
+                    <div class="card my-3">
+                        <img class="card-img-top" src="./Imagenes/Responsable.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Pedro Pérez</h5>
+                            <p class="card-text">Responsable de la tienda</p>
+                        </div>
+                    </div>
+                    <div class="card my-3">
+                        <img class="card-img-top" src="./Imagenes/Contable.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Diana Martinez</h5>
+                            <p class="card-text">Contable</p>
+                        </div>
+                    </div>
+                    <div class="card my-3">
+                        <img class="card-img-top" src="./Imagenes/Programador.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Irene Monge</h5>
+                            <p class="card-text">Prorgamadora</p>
+                        </div>
+                    </div>
+                    <div class="card my-3">
+                        <img class="card-img-top" src="./Imagenes/Dependiente1.png">
+                        <div class="card-body">
+                            <h5 class="card-title">José Redondo</h5>
+                            <p class="card-text">Dependiente</p>
+                        </div>
+                    </div>
+                    <div class="card my-3">
+                        <img class="card-img-top" src="./Imagenes/Dependiente2.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Noelia Nieto</h5>
+                            <p class="card-text">Dependienta</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin empleados -->
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
